@@ -1,19 +1,16 @@
 # petstore-k8s
 To deploy the Swagger Petstore example to Kubernetes with the specified ingress (petstore.axway-aus.com), follow these steps:
 
-1. Create a Kubernetes Deployment for Petstore
+1. Create a Kubernetes Deployment for Petstore - deployment.yaml
 
-Define a Kubernetes Deployment manifest to deploy the Petstore application.
 
-deployment.yaml
+ 
+2. Create a Service for Petstore - service.yaml
 
-2. Create a Service for Petstore
 
-service.yaml
 
-3. Create an Ingress Resource\
+3. Create an Ingress Resource - ingress.yaml
    
-ingress.yaml
 
 5. Apply the Manifests
 
